@@ -36,7 +36,7 @@ document.onkeyup = function (e) {
             cipherSubmit();
         }
     } else {
-        if (document.getElementById("inputArea").hidden && !document.getElementById("setupArea").hidden) {
+        if (document.getElementById("inputArea").hidden) {
             var c = e.key.toUpperCase();
             if (c.length == 1 && c >= 'A' && c <= 'Z') {
                 if (inputString.includes(c)) {
