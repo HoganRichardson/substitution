@@ -27,7 +27,7 @@ var charMap = [
     { key: 'Z', value: null }
 ]
 
-const inputString = "";
+var inputString = "";
 
 /* Keyboard Shortcuts */
 document.onkeyup = function (e) {
